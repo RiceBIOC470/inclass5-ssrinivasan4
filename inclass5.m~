@@ -12,12 +12,7 @@
 black2white('blackimage.jpeg');
 fraction_image('blackimage.jpeg', 0.3);
 fraction_image_inputs('blackimage.jpeg');
-
 %2. Write a function to take the reverse complement of a DNA sequence, that
 %is, returns the complementary base pair for each base, read from end
 %to beginning. (e.g. the reverse compliment of ATGC is GCAT). Do not use the
 %builtin MATLAB function for this. 
-
-NucSeq=randseq(500);
-
-reverse_seq=ReverseComp(NucSeq);
