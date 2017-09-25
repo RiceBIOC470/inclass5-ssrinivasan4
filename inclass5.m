@@ -1,3 +1,5 @@
+%AW: See comment below. 0.75/1. 
+
 %Inclass assignment 5. 
 
 % 1. (a) Write a function that reads in an image and displays it so that 1%
@@ -9,6 +11,8 @@
 % of black/white pixels optional with a default value of 1% if not
 % specified. 
 
+%AW: Your code doesn't work. I think the argument [fraction, fraction] should have been passed to strecthlim.
+% also, I think it should be [fraction, 1-fraction]. -0.25.
 black2white('blackimage.jpeg');
 fraction_image('blackimage.jpeg', 0.3);
 fraction_image_inputs('blackimage.jpeg');
